@@ -1,7 +1,10 @@
 # compatible-vue-socket.io
 
 
-socket.io implementation for Vuejs 2 and Vuex
+本模块模仿了vue-socket.io写了一个兼容ie的vue插件。
+由于vue-socket.io采用了Proxy的方法导致市面上所有ie都不兼容，同时也修复了该模块存在的一个问题。
+由于不是采用Proxy方法，所以该插件没办法动态添加和删除socket事件，只能在一开始就订阅socket事件。
+本模块还修复了mutations的socket事件会把服务器数据转成数组的bug（比如服务器推送数据：'你好'给客户端，moutations会收到['你好'],而actions却会正常接收'你好'）。
 
 ## Install
 
