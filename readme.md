@@ -96,6 +96,6 @@ export default new Vuex.Store({
 ```
 
 ## Example
-[demo](http://metinseylan.com/)
+[demo](https://github.com/lth707/compatible-vue-socket.io-demo)
 
 
