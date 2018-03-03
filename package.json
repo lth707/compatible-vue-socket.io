@@ -1,0 +1,15 @@
+{
+  "name": "compatible-vue-socket.io",
+  "version": "1.0.2",
+  "description": "兼容ie的vue-socket.io",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "litinghong",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io-client": "^2.0.4",
+    "vue-socket.io": "^2.1.1-b"
+  }
+}
